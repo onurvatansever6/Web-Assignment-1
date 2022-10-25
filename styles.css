@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    margin: 0;
+    margin: 0px;
     background-color: rgb(216, 163, 83);
 }
 
@@ -47,9 +47,14 @@ h4 {
 .topnavbar {
   display: flex;
   align-items: center;
-  justify-content: center;
   background-color: #333;
   overflow: hidden;
+}
+
+.topnavbar img{
+  margin-left: auto;
+  align-self: flex-end;
+  margin-right: 12px;
 }
 
 /* Style the links inside the navigation bar */
@@ -62,5 +67,9 @@ h4 {
   font-size: 17px;
 }
 
+#logoid {
+  width: 100px;
+  height: 52px;
+}
 
 
