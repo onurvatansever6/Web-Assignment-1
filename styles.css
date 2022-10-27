@@ -89,3 +89,21 @@ h4 {
   background-color: #4b4229; 
   color: white;
 }
+
+.aboutus-content {
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.aboutus-content img {
+  max-width: 760px;
+  max-height: 621px;
+}
+
+.aboutus-content li {
+  text-align: left;
+  margin-bottom: 15px;
+}
