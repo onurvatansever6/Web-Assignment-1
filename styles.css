@@ -1,3 +1,5 @@
+* {box-sizing: border-box} 
+
 html {
     height: 100%;
 }
@@ -59,6 +61,8 @@ h4 {
   text-decoration: none;
   font-size: 17px;
   font-family: 'Segoe UI', Tahoma;
+  border: 2px solid rgb(185, 47, 47);
+  border-radius: 10px;
 }
 
 .navigation a:hover {
@@ -89,6 +93,7 @@ h4 {
   color: white;
 }
 
+
 .aboutus-content {
   text-align: center;
   margin-right: 30%;
@@ -97,9 +102,28 @@ h4 {
   font-size: 20px;
 }
 
-.aboutus-content img {
-  max-width: 100%;
-  max-height: auto;
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  left: 50%;
+  transform: translateX(+50%);
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  transform: translateX(+50%);
+  width: 100%;
+  color: rgba(148, 42, 42, 0.747);
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
 }
 
 .aboutus-content li {
@@ -141,4 +165,20 @@ footer {
 
 .footer a {
   color: blue;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+a:visited {
+  color: rgb(165, 39, 177);
+}
+
+a:hover {
+  color: rgb(235, 65, 65);
+}
+
+a:active {
+  color: rgb(0, 0, 255);
 }
